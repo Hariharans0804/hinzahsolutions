@@ -1,0 +1,551 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* background: #4c5173; */
+  padding: 20px 0%;
+  /* border: 2px solid salmon; */
+  /* position: fixed;
+  z-index: 2; */
+}
+
+.logo-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  width: 5rem;
+  z-index: 1;
+  margin-left: 3rem;
+  /* padding: 3rem; */
+  border-radius: 8px;
+}
+
+.company-title {
+  margin-left: 1rem;
+  font-size: 2rem;
+  color: #000000;
+}
+
+.nav-links {
+  list-style: none;
+  margin-left: 5rem;
+  z-index: 1;
+}
+
+li {
+  display: inline-block;
+  margin-right: 2rem;
+  color: #000000;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  /* padding: 10px 5px; */
+}
+li:hover{
+  color: red;
+}
+
+.active li{
+  /* background: #0e0e0e; */
+  color: red;
+  /* border-radius: 1.5rem; */
+  /* display: inline-block; */
+}
+
+.icon-links {
+  display: inline-block;
+  align-items: center;
+  margin-right: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  border: 2px solid #000000;
+  padding: 4px 8px;
+  border-radius: 50%;
+  padding-top: 8px;
+  background: #FFFFFF;
+  color: #000000;
+}
+
+.navbar-icons {
+  font-size: 1.2rem;
+}
+
+.icon-links:hover {
+  color: #FFFFFF;
+  background: #000000;
+}
+
+/* .request-quote:hover {
+  background: #000000;
+  border: 1px solid #000000;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+} */
+
+.menu-icon {
+  display: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 780px) {
+  .navbar {
+    /* border: 2px solid salmon; */
+    justify-content: unset;
+  }
+
+  .company-logo {
+    width: 3rem;
+    margin-left: 2rem;
+  }
+
+  .company-title {
+    margin-left: 0.5rem;
+    font-size: 1.4rem;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links-mobile {
+    position: absolute;
+    display: block;
+    background: rgb(216, 211, 211);
+    left: 0;
+    top: 5.5rem;
+    transition: all 0.5s ease-out;
+    width: 100%;
+    z-index: 1;
+  }
+
+  li {
+    color: #0e0e0e;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    transition: all 0.5s ease;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    color: #1b1212;
+    background: none;
+    outline: none;
+    top: 32px;
+    right: 15px;
+    border: none;
+  }
+
+  .menu {
+    font-size: 1rem;
+  }
+
+  .icon-links {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 781px) and (max-width: 1024px) {
+  .company-logo {
+    width: 3rem;
+    margin-left: 1rem;
+  }
+
+  .company-title {
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+  }
+
+  .nav-links {
+    margin-left: 1rem;
+  }
+
+  li {
+    margin-right: 1rem;
+    font-size: 12px;
+  }
+
+  .icon-links {
+    margin-right: 5px;
+  }
+
+  .navbar-icons {
+    font-size: 1rem;
+  }
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  .company-logo {
+    width: 4rem;
+    margin-left: 1rem;
+  }
+
+  .company-title {
+    margin-left: 0.5rem;
+  }
+
+  .nav-links {
+    margin-left: 1.1rem;
+  }
+
+  li {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .icon-links {
+    margin-right: 7px;
+  }
+
+  .navbar-icons {
+    font-size: 1.2rem;
+  }
+}
+
+/* =====================================================================
+===================================================================== */
+
+@media only screen and (min-width: 800px) and (max-width: 810px) {
+  li {
+    font-size: 13px;
+  }
+
+  .request-quote {
+    padding: 8px 18px;
+  }
+}
+
+@media only screen and (min-width: 825px) and (max-width: 840px) {
+  li {
+    font-size: 14px;
+  }
+
+  .request-quote {
+    padding: 8px 18px;
+  }
+}
+
+@media only screen and (min-width: 841px) and (max-width: 860px) {
+  li {
+    font-size: 14.5px;
+  }
+
+  .request-quote {
+    padding: 8px 18px;
+  }
+}
+
+@media only screen and (min-width: 861px) and (max-width: 880px) {
+  li {
+    font-size: 15.5px;
+  }
+
+  .request-quote {
+    padding: 8px 18px;
+  }
+}
+
+@media only screen and (min-width: 881px) and (max-width: 900px) {
+  li {
+    font-size: 16.5px;
+  }
+
+  .request-quote {
+    padding: 8px 18px;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 930px) {
+  .company-title {
+    font-size: 1.7rem;
+  }
+
+  li {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 931px) and (max-width: 960px) {
+  .company-title {
+    font-size: 1.7rem;
+  }
+
+  li {
+    font-size: 16.5px;
+  }
+}
+
+@media only screen and (min-width: 961px) and (max-width: 990px) {
+  .company-title {
+    font-size: 1.6rem;
+  }
+
+  li {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1024px) {
+  .company-logo {
+    width: 4rem;
+  }
+
+  .company-title {
+    font-size: 2.3rem;
+  }
+
+  li {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1080px) {
+  .company-logo {
+    width: 3rem;
+  }
+
+  .company-title {
+    font-size: 1.7rem;
+  }
+
+  li {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 1081px) and (max-width: 1100px) {
+  .company-logo {
+    width: 3rem;
+  }
+
+  .company-title {
+    font-size: 1.8rem;
+  }
+
+  li {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (min-width: 1101px) and (max-width: 1130px) {
+  .company-logo {
+    width: 3.5rem;
+  }
+
+  .company-title {
+    font-size: 2rem;
+  }
+
+  li {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 1131px) and (max-width: 1160px) {
+  .company-logo {
+    width: 3.5rem;
+  }
+
+  .company-title {
+    font-size: 2rem;
+  }
+
+  li {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (min-width: 1161px) and (max-width: 1190px) {
+  .company-logo {
+    width: 4rem;
+  }
+
+  .company-title {
+    font-size: 2.5rem;
+  }
+
+  li {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (min-width: 1191px) and (max-width: 1220px) {
+  .company-logo {
+    width: 5rem;
+  }
+
+  .company-title {
+    font-size: 2.6rem;
+  }
+
+  li {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (min-width: 1221px) and (max-width: 1250px) {
+  .company-logo {
+    width: 5rem;
+  }
+
+  .company-title {
+    font-size: 2.7rem;
+  }
+
+  li {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (min-width: 1251px) and (max-width: 1280px) {
+  .company-logo {
+    width: 5rem;
+  }
+
+  .company-title {
+    font-size: 3rem;
+  }
+
+  li {
+    font-size: 1.3rem;
+  }
+
+  .request-quote {
+    padding: 15px 30px;
+  }
+}
+
+@media only screen and (min-width: 1281px) and (max-width: 1310px) {
+  .company-logo {
+    width: 5rem;
+  }
+
+  .company-title {
+    font-size: 3rem;
+  }
+
+  li {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 1311px) and (max-width: 1340px) {
+  .company-logo {
+    width: 5rem;
+  }
+
+  .company-title {
+    font-size: 3rem;
+  }
+
+  li {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 1341px) and (max-width: 1370px) {
+  .company-logo {
+    width: 6rem;
+  }
+
+  .company-title {
+    font-size: 3rem;
+  }
+
+  li {
+    font-size: 1.5rem;
+  }
+
+}
+
+@media only screen and (min-width: 1371px) and (max-width: 1400px) {
+  .company-logo {
+    width: 6rem;
+  }
+
+  .company-title {
+    font-size: 3.2rem;
+  }
+
+  li {
+    font-size: 1.5rem;
+  }
+
+  .request-quote {
+    font-size: 1.3rem;
+    padding: 15px 30px;
+  }
+}
+
+@media only screen and (min-width: 1401px) and (max-width: 1420px) {
+  .company-logo {
+    width: 6rem;
+  }
+
+  .company-title {
+    font-size: 3.5rem;
+  }
+
+  li {
+    font-size: 1.5rem;
+  }
+
+  .request-quote {
+    font-size: 1.5rem;
+    padding: 15px 30px;
+  }
+}
+
+@media only screen and (min-width: 1421px) and (max-width: 1440px) {
+  .company-logo {
+    width: 6rem;
+  }
+
+  .company-title {
+    font-size: 3.5rem;
+  }
+
+  li {
+    font-size: 1.5rem;
+  }
+
+  .request-quote {
+    font-size: 1.5rem;
+    padding: 15px 30px;
+  }
+}
+
+/* navbar-icons */
+
+@media only screen and (min-width: 1161px) and (max-width: 1200px){
+  .icon-links {
+    padding: 3px 8px;
+    padding-top: 8px;
+}
+}
+@media only screen and (min-width: 1201px) and (max-width: 1300px){
+  .icon-links {
+    padding: 4px 9px;
+    padding-top: 8px;
+}
+}
+@media only screen and (min-width: 1301px) and (max-width: 1400px){
+  .icon-links {
+    padding: 5px 10px;
+    padding-top: 8px;
+}
+}
+@media only screen and (min-width: 1401px) and (max-width: 1440px){
+  .icon-links {
+    padding: 5px 10px;
+    padding-top: 8px;
+}
+}
