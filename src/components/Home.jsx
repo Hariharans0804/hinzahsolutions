@@ -390,11 +390,11 @@ const Home = () => {
               <h3 className="home-ceo-text-4" data-aos="fade-up" data-aos-duration="2000">CEO</h3>
             </div> */}
 
-            <div>
+            {/* <div>
               <img src={Woman_2} alt="Man_3" data-aos="fade-up" data-aos-duration="2000" />
               <h2 className="home-ceo-text-3" data-aos="fade-up" data-aos-duration="2000">Hazina Rani.N</h2>
               <h3 className="home-ceo-text-4" data-aos="fade-up" data-aos-duration="2000">Manager</h3>
-            </div>
+            </div> */}
           </div>
 
         </div>
@@ -411,7 +411,7 @@ const Home = () => {
           results.
         </p>
 
-        <div className="home-leader-content">
+        {/* <div className="home-leader-content">
 
           <div className="home-leader-image" data-aos="flip-left" data-aos-duration="2000">
             <img src={Man_2} alt="Woman_2" />
@@ -431,7 +431,7 @@ const Home = () => {
             <h3 className="home-image-text-2">Backend Developer</h3>
           </div>
 
-        </div>
+        </div> */}
       </section>
       {/*===== home our leader end=====*/}
 

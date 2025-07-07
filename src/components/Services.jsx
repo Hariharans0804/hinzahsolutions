@@ -365,11 +365,11 @@ const Services = () => {
               <h3 className="service-ceo-text-4" data-aos="fade-up" data-aos-duration="1000">CEO</h3>
             </div> */}
 
-            <div>
+            {/* <div>
               <img src={Woman_2} alt="Man_3" data-aos="fade-up" data-aos-duration="1000" />
               <h2 className="service-ceo-text-3" data-aos="fade-up" data-aos-duration="1000">Hazina Rani.N</h2>
               <h3 className="service-ceo-text-4" data-aos="fade-up" data-aos-duration="1000">Manager</h3>
-            </div>
+            </div> */}
           </div>
 
         </div>
@@ -386,7 +386,7 @@ const Services = () => {
           results.
         </p>
 
-        <div className="service-leader-content">
+        {/* <div className="service-leader-content">
 
           <div className="service-leader-image" data-aos="flip-left" data-aos-duration="1000">
             <img src={Woman_2} alt="Woman_2" />
@@ -406,7 +406,7 @@ const Services = () => {
             <h3 className="service-image-text-2">Backend Developer</h3>
           </div>
 
-        </div>
+        </div> */}
       </section>
       {/*===== services our leader end=====*/}
 
