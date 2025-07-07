@@ -402,7 +402,7 @@ const Services = () => {
 
           <div className="service-leader-image" data-aos="flip-left" data-aos-duration="1000">
             <img src={Man_2} alt="Man_2" />
-            <h2 className="service-image-text-1">Arjun</h2>
+            <h2 className="service-image-text-1">Arjun sarkar</h2>
             <h3 className="service-image-text-2">Backend Developer</h3>
           </div>
 
