@@ -359,11 +359,11 @@ const Services = () => {
           </p>
 
           <div className="founder-container">
-            <div>
+            {/* <div>
               <img src={Man_3} alt="Man_3" data-aos="fade-up" data-aos-duration="1000" />
               <h2 className="service-ceo-text-3" data-aos="fade-up" data-aos-duration="1000">Nainar Shareef.M</h2>
               <h3 className="service-ceo-text-4" data-aos="fade-up" data-aos-duration="1000">CEO</h3>
-            </div>
+            </div> */}
 
             <div>
               <img src={Woman_2} alt="Man_3" data-aos="fade-up" data-aos-duration="1000" />
@@ -402,8 +402,8 @@ const Services = () => {
 
           <div className="service-leader-image" data-aos="flip-left" data-aos-duration="1000">
             <img src={Man_2} alt="Man_2" />
-            <h2 className="service-image-text-1">Rajkumar</h2>
-            <h3 className="service-image-text-2">Fullstack Developer</h3>
+            <h2 className="service-image-text-1">Arjun</h2>
+            <h3 className="service-image-text-2">Backend Developer</h3>
           </div>
 
         </div>
