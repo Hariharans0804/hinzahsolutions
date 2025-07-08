@@ -383,7 +383,7 @@ const Services = () => {
           Our team leadership combines expertise and collaboration to drive
           innovative solutions. <br />
           They inspire excellence and guide our team to achieve remarkable
-          results.
+          results...
         </p>
 
         {/* <div className="service-leader-content">
